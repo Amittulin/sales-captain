@@ -1,0 +1,306 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* 
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+.bold{
+  font-size: 6rem;
+  display: flex;
+  margin: auto;
+  width: 60%;
+  height: 50px;
+ font-weight: 600;
+  padding: 6px;
+  box-sizing: border-box;
+  margin: 1em 2em .6em;
+  font-weight: 700;
+  color: #000;
+  text-align: center;
+  margin-left: 17rem;
+  margin-right: 0;
+  font-size: 5rem;
+  line-height: 1.2em;
+  
+
+}
+.text{
+  position: relative;
+  top: 10rem;
+  box-sizing: border-box;
+  font-weight: 300;
+  line-height: 1.5em;
+  color: #333;
+  text-align: center;
+  margin: 35px 0 60px;
+  font-size: 1.5rem;
+  padding-bottom: 3rem;
+  padding-top: 4rem;
+}
+
+.place{
+  position: relative;
+  left: 30%;
+  bottom: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 4rem;
+}
+.getdemo{
+  color: blue;
+  margin-left: 2rem;
+  border-radius: 40%;
+  
+}
+.trust{
+  font-size: 3rem;
+  font-weight: 600;
+  margin-left: 9rem;
+}
+.logo{
+  display:flex;
+  justify-content: center;
+  width: 100%;
+  
+}
+
+.simon{
+  font-size: 2rem;
+  font-weight: 700;
+  position: relative;
+  left: 2rem;
+  bottom: 5rem;
+}
+.person{
+  position: relative;
+  right: 8rem;
+  top: 1rem;
+}
+
+.select{
+  text-align: center;
+}
+.trust-3{
+  font-size: 3.5rem;
+  font-weight: 600;
+  margin-left: 11rem;
+ 
+}
+.trust-4{
+  font-size: 3.5rem;
+  font-weight: 600;
+  margin-left: 15rem;
+}
+.prompt{
+  display: inline-flex;
+  justify-content: center;
+  border-radius: 30%;
+}
+.resources{
+position: relative;
+left: 35rem;
+}
+
+body{
+  overflow-x: hidden;
+}
+.foot-button{
+  position: relative;
+  top: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media queries */
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: whitesmoke;
+    overflow-x: hidden;
+  }
+
+  .bold{
+ text-align: center;
+ font-size: 3rem;
+ position: relative;
+ right: 9rem;
+ height: 5px;
+ padding-bottom: 2rem;
+    
+  }
+  .text{
+ text-align: center;
+ font-size: 1.2rem;
+ position: relative;
+ left: 3rem;
+ bottom: 2rem;
+ height: 5px;
+ padding-bottom: 2rem;
+ margin-top: 2rem;
+    
+  }
+  .foot{
+    display:table-column-group;
+   
+       
+  }
+  .trust-4{
+    justify-content: center;
+    position: relative;
+    right: 5rem;
+    font-size: 2rem;
+    
+  }
+  .trust-3{
+    text-align: center;
+    justify-content: center;
+    margin-right: 3rem;
+    
+  }
+  .place{
+    position: relative;
+    top: 2rem;
+    right: 4rem;
+  
+
+  }
+  .logo{
+    width: 100%;
+    justify-content: center;
+  }
+  
+}
+
